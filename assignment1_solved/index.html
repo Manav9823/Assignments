@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index </title>
+</head>
+<body>
+    <h1> My Bio Data</h1>
+    <form action ="#" method="POST">
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for ="First Name">First Name :</label>
+        <input type="text" id = "First Name" placeholder="First Name" name="First Name">
+             
+        <label for ="Last Name">Last Name :</label>
+        <input type="text" id = "Last Name" placeholder="Last Name" name="Last Name">
+        <br>
+        <br>
+        <label for="male">Male:</label>
+        <input type="radio" id ="male" name="gender" value="male">
+        <label for="female">Female:</label>
+        <input type="radio" id ="female" name="gender" value="female">
+        <label for="others">Others:</label>
+        <input type="radio" id ="others" name="gender" value="others">
+        <br>
+        <br>
+        <label for="email">E-mail</label>
+        <input type="email" id ="email" placeholder="Enter Your Email">
+        <br>
+        <br>
+        <label for ="D.O.B">D.O.B</label>
+        <input type="date" id = "D.O.B" name="D.O.B">
+        <br>
+        <br>
+        <label for ="Phone">Phone</label>
+        <input type="number" id = "Phone" placeholder="+91" name="Phone">
+        <br>
+        <br>
+        <label for ="Height">Height</label>
+        <input type="number" id = "Height" placeholder="Height in Feet" name="Height">
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Education</legend>
+      <label for="X"> School Name :  </label>
+      <input type="name" id ="X" name="X" placeholder="School Name">
+      <br>
+      <br>
+      <label for="XII"> Class :</label>
+      <input type="name" id ="XII" name="XII" placeholder="Enter Class">
+      <br>
+      <br>
+      <label for="Additional"> Marksheet : </label>
+      <input type="file" id="Additional" name="Additional">
+      <br>
+      <br>
+    </fieldset>
+    <br>
+    <br>
+    <button>Submit</button>
+    </form>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is the Time Table</h1>
+    <table border="10" cellspacing="15" cellpadding="15">
+        <thead>
+            <tr>
+                <th>Days/periods</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th></th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mon</td>
+                <td>Science</td>
+                <td>English</td>
+                <td >Hindi</td>
+                <th rowspan="8" >BREAK</th>
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <td>Tue</td>
+                <td>Science</td>
+                <td>English</td>
+                <td rowspan="3">Hindi</td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <td>Wed</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <td>Thu</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <td>Fri</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>Hindi</td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <td>Sat</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>Hindi</td>
+                <td colspan="3">Maths</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="8">Timetable for class VIII</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

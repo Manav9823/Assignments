@@ -1,0 +1,136 @@
+div{
+    border:2px dashed black;
+    background-color: lightskyblue;
+    font-size: 30px;
+    margin:10px;
+}
+#H1{
+    color: royalblue;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+#a{
+    
+    border:2px dashed black;
+    background-color: aquamarine;
+}
+#b{
+    border:2px solid black;
+    background-color:red;
+}
+#c{
+    border:2px dashed black;
+    background-color: lemonchiffon;
+}
+#d{
+    border:2px solid black;
+    background-color: yellow;
+}
+#e{
+    border:2px dashed black;
+    background-color: yellowgreen;
+}
+#f{
+    border:2px solid black;
+    background-color: brown;
+}
+#h{
+    border:2px dashed black;
+    background-color: burlywood;
+}
+#j{
+    border:2px solid black;
+    background-color: pink;
+}
+#k{
+    border:2px dashed black;
+    background-color: palevioletred;
+}
+#l{
+    border:2px solid black;
+    background-color: papayawhip;
+}
+#m{
+    border:2px dashed black;
+    background-color:paleturquoise;
+}
+#n{
+    border:2px dashed black;
+    background-color: aquamarine;
+}
+#o{
+    border:2px solid black;
+    background-color:oldlace;
+}
+
+#p{
+    border:2px dashed black;
+    background-color:olive;
+}
+
+#q{
+    border:2px solid black;
+    background-color:olivedrab;
+}
+#r{
+    border:2px dashed black;
+    background-color:orangered;
+}
+#s{
+    border:2px solid black;
+    background-color:tan;
+}
+#t{
+    border:2px dashed black;
+    background-color:teal;
+}
+#u{
+    border:2px solid black;
+    background-color: thistle;
+}
+#v{
+    border:2px dashed black;
+    background-color:tomato;
+}
+#w{
+    border:2px solid black;
+    background-color: turquoise;
+}
+#x{
+    border:2px dashed black;
+    background-color: lemonchiffon;
+}
+#y{
+    border:2px solid black;
+    background-color: darkcyan;
+}
+#z{
+    border:2px dashed black;
+    background-color: turquoise;
+}
+
+
+
+div{
+    position: sticky;
+    top:40px;
+}
+li{
+    border: 1px solid darkslategrey;
+}
+
+li::before{
+    content: "\260E";
+}

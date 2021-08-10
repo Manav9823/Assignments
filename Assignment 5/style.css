@@ -1,0 +1,68 @@
+nav{
+    background-color:skyblue;
+    position:fixed;
+    margin-top: 25px;
+    margin-bottom:20px;
+}
+#container{
+    width:90vw;
+    height: 200vh;
+    background-color:grey;
+    margin: auto;
+}
+ /* #container2{
+    /* width: 50vw; */
+     /* background-color:skyblue;  */
+    /* height:25vh; */
+    /* margin-bottom: 20px; */
+
+ #a1{
+    background-color:skyblue;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#a2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+ text-align: center;
+ font-size: 70px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#c1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+#d1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#e1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+button{
+    margin-left:600px
+}
+button:hover{
+    background-color: cadetblue;
+    transform: scale(1.1);
+}
